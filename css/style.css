@@ -100,4 +100,16 @@ footer a {
   body {
     background-image: url(../images/pattern-background-desktop.svg);
   }
+  .plan a:hover {
+    color: #766cf1;
+    text-decoration: none;
+  }
+  button:hover {
+    background-color: #766cf1;
+    cursor: pointer;
+  }
+  .cancel:hover {
+    color: hsl(223, 47%, 23%);
+    cursor: pointer;
+  }
 }
