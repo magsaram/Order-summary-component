@@ -8,10 +8,10 @@ body {
   width: 100%;
   height: 100vh;
   background-color: hsl(225, 100%, 94%);
-  font-family: "Red Hat Display", sans-serif;
   background-image: url(../images/pattern-background-mobile.svg);
   background-repeat: no-repeat;
   background-size: contain;
+  font-family: "Red Hat Display", sans-serif;
 }
 main {
   margin: auto;
@@ -30,27 +30,27 @@ main {
   margin: auto;
 }
 h1 {
-  font-size: 22px;
-  text-align: center;
-  font-weight: 900;
   margin-top: 32px;
   margin-bottom: 16px;
+  font-size: 22px;
+  font-weight: 900;
+  text-align: center;
   color: hsl(223, 47%, 23%);
 }
 .p-order {
+  margin-bottom: 24px;
   font-size: 15px;
-  line-height: 25px;
   color: hsl(224, 23%, 55%);
   text-align: center;
-  margin-bottom: 24px;
+  line-height: 25px;
 }
 .plan {
   display: flex;
   align-items: center;
-  background-color: hsl(225, 100%, 98%);
   height: 81px;
-  border-radius: 11px;
   margin-bottom: 24px;
+  background-color: hsl(225, 100%, 98%);
+  border-radius: 11px;
 }
 .plan img {
   width: 48px;
@@ -58,29 +58,29 @@ h1 {
   margin: 17px;
 }
 h2 {
-  font-size: 14px;
   margin-bottom: 3px;
+  font-size: 14px;
 }
 .plan p {
   font-size: 14px;
   color: hsl(224, 23%, 55%);
 }
 .plan a {
+  margin-left: 50px;
   font-size: 13px;
   color: hsl(245, 75%, 52%);
   font-weight: 700;
-  margin-left: 50px;
 }
 button {
   width: 279px;
   height: 50px;
+  margin-bottom: 24px;
   background-color: hsl(245, 75%, 52%);
+  border: transparent;
   border-radius: 11px;
   color: white;
   font-weight: 700;
-  border: transparent;
   box-shadow: 0 15px 20px 0 hsla(245, 75%, 52%, 0.308);
-  margin-bottom: 24px;
 }
 .cancel {
   font-size: 15px;
@@ -90,4 +90,14 @@ button {
 }
 footer {
   font-size: 12px;
+  text-align: center;
+}
+footer a {
+  color: black;
+  text-decoration: none;
+}
+@media (min-width: 950px) {
+  body {
+    background-image: url(../images/pattern-background-desktop.svg);
+  }
 }
